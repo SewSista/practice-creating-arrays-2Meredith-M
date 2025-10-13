@@ -1,0 +1,10 @@
+let greetingArray =Array(7);
+console.log(greetingArray.fill("Hello"));
+console.log(greetingArray.fill("hi",2,4));
+
+let numArray = Array(5);
+for (let i=0; i < numArray.length; i++){
+    numArray[i] = i*10;
+}
+console.log(numArray);
+
